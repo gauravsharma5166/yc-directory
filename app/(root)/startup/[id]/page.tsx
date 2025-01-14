@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import markdownit from 'markdown-it'
 import { Skeleton } from '@/components/ui/skeleton';
-import view from '@/components/view';
+import View from '@/components/View';
 
 
 
@@ -65,7 +65,7 @@ const page = async ({params}: {params: Promise<{id: string}> }) => {
         <hr className='divider' />
 
         <Suspense fallback={<Skeleton className='view_skeleton' />}>
-          <view id='{id}' />
+          <View id='{id}' />
         </Suspense>
     </>
   )
