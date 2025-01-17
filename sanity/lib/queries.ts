@@ -70,4 +70,5 @@ export const AUTHOR_BY_ID_QUERY = defineQuery(`
         email,
         image,
         bio
-}`);
+}
+`);
