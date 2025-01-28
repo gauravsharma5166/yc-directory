@@ -100,6 +100,7 @@ const StartupForm = () => {
         <Textarea
           id="description"
           name="description"
+          
           className="startup-form_textarea"
           required
           placeholder="Startup Description"
